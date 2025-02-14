@@ -1,0 +1,33 @@
+/* App.css */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+}
+.product-img {
+  position: inherit;
+  width: 100%;
+}
+.favorite-btn {
+  background-color: #ff9900;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.favorite-btn:hover {
+  background-color: #ff6600;
+}
+
+.header input,
+.header select {
+  margin: 10px;
+  padding: 5px;
+  font-size: 1rem;
+}
